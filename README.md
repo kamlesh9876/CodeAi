@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CodeAI — Voice-Controlled Coding Assistant</title>
+
 </head>
 <body>
 
