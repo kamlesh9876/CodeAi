@@ -33,12 +33,9 @@ def record_audio():
     return temp_file.name
 
 def setup_output_file():
-    """
-    Ensures the output code file exists.
-    """
-    if not os.path.exists(OUTPUT_FILE):
-        with open(OUTPUT_FILE, "w") as f:
-            f.write("# 🧠 Generated code will appear here\n")
+    with open("generated_code.py", "w", encoding="utf-8") as f:
+        f.write("# 🧠 Generated code will appear here\n")
+
 
 def main():
     print("\n🚀 Real-Time Voice-Controlled Coding Assistant Started!")
