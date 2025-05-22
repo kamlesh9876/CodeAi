@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
 # Load a small, local-compatible model
-model_name = "bigcode/starcoderbase-1b"  # lightweight version of StarCoder
+model_name = "gpt2"  # lightweight version of StarCoder
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
